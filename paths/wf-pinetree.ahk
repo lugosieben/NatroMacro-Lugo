@@ -1,4 +1,29 @@
 ﻿If ((HiveBees < 25) || (MoveMethod = "Walk")) {
+    send "{PgDn down}"
+    HyperSleep(50)
+    send "{PgDn up}"
+    send "{PgDn down}"
+    HyperSleep(50)
+    send "{PgDn up}"
+    send "{PgDn down}"
+    HyperSleep(50)
+    send "{PgDn up}"	
+    send "{, down}"
+	HyperSleep(50)
+	send "{, up}"
+	HyperSleep(50)
+	send "{, down}"
+	HyperSleep(50)
+	send "{, up}"
+	HyperSleep(50)
+	send "{, down}"
+	HyperSleep(50)
+	send "{, up}"
+	HyperSleep(50)
+	send "{, down}"
+	HyperSleep(50)
+	send "{, up}"
+	HyperSleep(50)
 	nm_Walk(31, FwdKey)
 	nm_Walk(75, RightKey)
 	send "{" RotLeft " 4}"
@@ -25,6 +50,22 @@
 		}
 	}
 else {
+	send "{, down}"
+	HyperSleep(50)
+	send "{, up}"
+	HyperSleep(50)
+	send "{, down}"
+	HyperSleep(50)
+	send "{, up}"
+	HyperSleep(50)
+	send "{, down}"
+	HyperSleep(50)
+	send "{, up}"
+	HyperSleep(50)
+	send "{, down}"
+	HyperSleep(50)
+	send "{, up}"
+	HyperSleep(50)
 	nm_Walk(31, FwdKey)
 	nm_Walk(75, RightKey)
 	send "{" RotLeft " 4}"

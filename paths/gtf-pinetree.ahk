@@ -11,6 +11,58 @@
     HyperSleep(500)
     send "{" RightKey " up}{space}{" RotLeft " 4}"
     Sleep 2000
+    send "{a down}"
+    send "{w down}"
+    HyperSleep(4000)
+    send "{a up}"
+    HyperSleep(2000)
+    send "{w up}"
+    send "{s down}"
+    Walk(6)
+    send "{s up}"
+    send "{, down}"
+    HyperSleep(50)
+    send "{, up}"
+    HyperSleep(50)
+    send "{, down}"
+    HyperSleep(50)
+    send "{, up}"
+    HyperSleep(50)
+    send "{, down}"
+    HyperSleep(50)
+    send "{, up}"
+    HyperSleep(50)
+    send "{, down}"
+    HyperSleep(50)
+    send "{, up}"
+    HyperSleep(50)
+    send "{PgUp down}"
+    HyperSleep(50)
+    send "{PgUp up}"
+    send "{PgUp down}"
+    HyperSleep(50)
+    send "{PgUp up}"
+    send "{PgUp down}"
+    HyperSleep(50)
+    send "{PgUp up}"
+    send "{PgUp down}"
+    HyperSleep(50)
+    send "{PgUp up}"
+    send "{PgUp down}"
+    HyperSleep(50)
+    send "{PgUp up}"
+    send "{PgUp down}"
+    HyperSleep(50)
+    send "{PgUp up}"
+    send "{PgUp down}"
+    HyperSleep(50)
+    send "{PgUp up}"
+    send "{PgUp down}"
+    HyperSleep(50)
+    send "{PgUp up}"
+    send "{PgUp down}"
+    HyperSleep(50)
+    send "{PgUp up}"
 } else {
     nm_gotoramp()
     nm_Walk(67.5, BackKey, LeftKey)
