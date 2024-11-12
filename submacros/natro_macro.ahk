@@ -11158,6 +11158,15 @@ nm_HoneyLB(){ ;Daily Honey LB
 			DateStr := Buffer(512), DllCall("GetDateFormatEx", "Ptr",0, "UInt",0, "Ptr",0, "Ptr",FormatStr.Ptr, "Ptr",DateStr.Ptr, "Int",512, "Ptr",0)
 			nm_setStatus("Reporting", "Daily Honey LB`nDate: " StrGet(DateStr))
 			LastHoneyLB:=nowUnix()
+			HyperSleep(1000)
+
+			; LB Update
+			; TODO: Add a setting for this
+			nm_Reset()
+			nm_setStatus("Traveling", "Hive Hub - LB Update")
+			nm_gotoCollect("lbupdate")
+			HyperSleep(1000)
+			nm_ForceReconnect(1)
 		}
 	}
 }
